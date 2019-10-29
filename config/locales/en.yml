@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  mail_subject_failed_logins_reset_password: "Account Locked | Your %{value} password"
+  mail_body_failed_logins_reset_password: 'Your account has been locked due to several failed login attempts. To change your password, click on the following link:'
