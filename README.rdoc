@@ -1,3 +1,4 @@
 = redmine_block_users
 
-Description goes here
+When a user will provide correct login and wrong password to log into the system more the X times, it should be locked(reset some random password, don’t change the user status) and a notification should be sent to registered email of the user notifying about the wrong attempts made and asking to reset the password(provide reset password link in the email)
+● X should be configurable
